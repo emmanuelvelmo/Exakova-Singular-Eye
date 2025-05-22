@@ -1,2 +1,2 @@
 # Singular Eye
-A physical trait classifier powered by computer vision image analysis
+A physical trait classifier computer vision AI model
