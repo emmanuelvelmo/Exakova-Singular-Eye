@@ -1,2 +1,2 @@
 # Singular Eye
-A physical trait classifier computer vision AI model
+A physical trait classifier MobileNetV3 model
