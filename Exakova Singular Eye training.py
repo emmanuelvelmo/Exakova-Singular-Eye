@@ -10,7 +10,7 @@ import cv2
 import json
 
 class MultiOutputImageClassifier:
-    def __init__(self, dataset_path="dataset", img_size=(224, 224)):
+    def __init__(self, dataset_path="dataset", img_size=(256, 256)):
         self.dataset_path = dataset_path
         self.img_size = img_size
         self.model = None
@@ -296,7 +296,7 @@ class ImagePredictor:
     def __init__(self):
         self.interpreter = None
         self.label_encoders = {}
-        self.img_size = (224, 224)
+        self.img_size = (256, 256)
         self.input_details = None
         self.output_details = None
     
